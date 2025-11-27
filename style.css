@@ -201,6 +201,46 @@ body {
     color: #555;
 }
 
+.timeline-intro {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4a5568;
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+.timeline-link-container {
+    text-align: center;
+}
+
+.timeline-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 14px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.timeline-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.timeline-link i {
+    transition: transform 0.3s ease;
+}
+
+.timeline-link:hover i {
+    transform: translateX(5px);
+}
+
 .footer {
     background: #f8f9fa;
     padding: 30px 40px;
