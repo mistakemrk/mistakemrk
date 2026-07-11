@@ -142,16 +142,6 @@ body {
     transform: translateX(5px);
 }
 
-.stats {
-    text-align: center;
-}
-
-.stats img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
 .social-links {
     display: flex;
     gap: 20px;

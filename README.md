@@ -21,10 +21,6 @@
 - 冴えカノ
 - WHITE ALBUM2
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mistakemrk&show_icons=true&theme=radical)
-
 ## 🔗 SNS
 
 [![X (Twitter)](https://img.shields.io/badge/X-@mistakemrkanime-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mistakemrkanime)
