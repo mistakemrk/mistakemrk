@@ -1,34 +1,18 @@
-# 👋 こんにちは、みすたけです！
+# こんにちは、みすたけです
 
-## 自己紹介
+仕事では主にC/C++を使っています。
+GitHubでは、趣味のプログラミングや興味を持った技術について、
+少しずつ学びながら形にしていきたいと思っています。
 
-プログラマーとして活動しています。コーディングとアニメ鑑賞を愛する開発者です。
+## 技術と興味
 
-## 🛠️ スキル
+- **仕事で主に使用**: C / C++
+- **触れたことがある技術**: Python / TypeScript / JavaScript / C#
+- **興味があること**: Rust / AIを活用した開発
 
-- **プログラミング**: 日々コードを書いています
-- **趣味**: アニメ鑑賞、技術探求
+## Links
 
-## 📺 好きなアニメ・ゲーム
+- [プロフィールとこれまでの歩み](https://mistakemrk.github.io/mistakemrk/)
+- [X（@mistakemrkanime）](https://x.com/mistakemrkanime)
 
-- アオのハコ
-- 僕ヤバ
-- リンクラ
-- 雀魂
-- 響け！ユーフォニアム
-- 君嘘
-- さらなみ
-- 冴えカノ
-- WHITE ALBUM2
-
-## 🔗 SNS
-
-[![X (Twitter)](https://img.shields.io/badge/X-@mistakemrkanime-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mistakemrkanime)
-
-## 📫 Contact
-
-何かご質問やご提案がありましたら、お気軽にご連絡ください！
-
----
-
-⭐️ From [mistakemrk](https://github.com/mistakemrk)
+アニメやゲームも好きです。
