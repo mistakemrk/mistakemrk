@@ -35,9 +35,8 @@
 .timeline-age {
     position: relative;
     z-index: 1;
-    width: max-content;
-    min-width: 54px;
-    margin-left: 48px;
+    width: 104px;
+    margin-left: 23px;
     padding: 5px 8px;
     border: 1px solid var(--line);
     border-radius: 4px;
@@ -86,17 +85,17 @@
 
     .timeline-list::before {
         top: 36px;
-        left: 26px;
+        left: 41px;
     }
 
     .timeline-entry {
-        grid-template-columns: 54px minmax(0, 1fr);
+        grid-template-columns: 82px minmax(0, 1fr);
         gap: 18px;
         padding-bottom: 34px;
     }
 
     .timeline-age {
-        min-width: 52px;
+        width: 82px;
         margin-left: 0;
     }
 
