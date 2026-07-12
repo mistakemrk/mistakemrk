@@ -1,112 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="みすたけとパソコン、プログラミングとの出会いをまとめた年表です。">
     <title>これまでの歩み - みすたけ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="timeline.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="header timeline-header">
-            <a href="index.html" class="back-link">
-                <i class="fas fa-arrow-left"></i> プロフィールに戻る
-            </a>
-            <h1 class="page-title">これまでの歩み</h1>
-            <p class="page-subtitle">パソコンとの出会いから現在まで</p>
+    <main class="page">
+        <header class="topbar">
+            <span>mistakemrk / timeline</span>
+            <nav aria-label="プロフィールリンク">
+                <a href="index.html">プロフィール</a>
+                <a href="https://x.com/mistakemrkanime" target="_blank" rel="noopener noreferrer">X</a>
+                <a href="https://github.com/mistakemrk" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </nav>
         </header>
 
-        <section class="timeline-section">
-            <div class="timeline">
-                <!-- 10歳 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="timeline-dot"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-age">10歳</div>
-                        <h3 class="timeline-title">
-                            <i class="fas fa-computer"></i> 初めてパソコンと出会う
-                        </h3>
-                        <p class="timeline-description">
-                            カセットテープを使ってインベーダーゲームができるのが当時は理解できなかったが、とてもワクワクした。
-                        </p>
-                    </div>
-                </div>
+        <header class="timeline-hero">
+            <p class="kicker">TIMELINE</p>
+            <h1>これまでの歩み</h1>
+            <p class="intro">パソコンとの出会いから、プログラミングに興味を持った頃まで。</p>
+        </header>
 
-                <!-- 11歳 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="timeline-dot"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-age">11歳</div>
-                        <h3 class="timeline-title">
-                            <i class="fas fa-store"></i> 家電量販店に通う
-                        </h3>
-                        <p class="timeline-description">
-                            家電量販店のパソコンコーナーに入り浸り、持っていないパソコンのゲームソフトを買って家電量販店でプレイ。
-                        </p>
-                    </div>
-                </div>
+        <ol class="timeline-list" role="list">
+            <li class="timeline-entry">
+                <div class="timeline-age">10歳</div>
+                <article class="timeline-body">
+                    <h2>初めてパソコンと出会う</h2>
+                    <p>カセットテープを使ってインベーダーゲームができるのが当時は理解できなかったが、とてもワクワクした。</p>
+                </article>
+            </li>
 
-                <!-- 12歳 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="timeline-dot"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-age">12歳</div>
-                        <h3 class="timeline-title">
-                            <i class="fas fa-book"></i> 「こんにちはマイコン」とこんにちは
-                        </h3>
-                        <p class="timeline-description">
-                            「ゲームセンターあらし」でお馴染みのすがやみつる先生著「こんにちはマイコン」に出会い、PC-6001とBASICに興味をもつ。
-                        </p>
-                    </div>
-                </div>
+            <li class="timeline-entry">
+                <div class="timeline-age">11歳</div>
+                <article class="timeline-body">
+                    <h2>家電量販店に通う</h2>
+                    <p>家電量販店のパソコンコーナーに入り浸り、持っていないパソコンのゲームソフトを買って家電量販店でプレイ。</p>
+                </article>
+            </li>
 
-                <!-- 15歳 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="timeline-dot"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-age">15歳</div>
-                        <h3 class="timeline-title">
-                            <i class="fas fa-users"></i> 中学校でパソコンクラブを立ち上げる
-                        </h3>
-                        <p class="timeline-description">
-                            中３の仲良し３人組でパソコンクラブを立ち上げた。メンバーの一人はBASICマガジンに作品掲載された。
-                        </p>
-                    </div>
-                </div>
+            <li class="timeline-entry">
+                <div class="timeline-age">12歳</div>
+                <article class="timeline-body">
+                    <h2>「こんにちはマイコン」とこんにちは</h2>
+                    <p>「ゲームセンターあらし」でお馴染みのすがやみつる先生著「こんにちはマイコン」に出会い、PC-6001とBASICに興味をもつ。</p>
+                </article>
+            </li>
 
-                <!-- 続く... -->
-                <div class="timeline-item timeline-continue">
-                    <div class="timeline-marker">
-                        <div class="timeline-dot timeline-dot-continue"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <p class="timeline-continue-text">
-                            <i class="fas fa-ellipsis-h"></i> 続きは今後追記予定
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <li class="timeline-entry">
+                <div class="timeline-age">15歳</div>
+                <article class="timeline-body">
+                    <h2>中学校でパソコンクラブを立ち上げる</h2>
+                    <p>中3の仲良し3人組でパソコンクラブを立ち上げた。メンバーの一人はBASICマガジンに作品掲載された。</p>
+                </article>
+            </li>
+
+            <li class="timeline-entry timeline-future">
+                <div class="timeline-age">続く</div>
+                <p class="timeline-note">続きは今後追記予定です。</p>
+            </li>
+        </ol>
 
         <footer class="footer">
-            <p>⭐️ From <a href="https://github.com/mistakemrk" target="_blank">mistakemrk</a></p>
-            <p class="joined-date">
-                <i class="fas fa-calendar-alt"></i> Joined January 2023
-            </p>
+            <span>mistakemrk</span>
+            <a href="index.html">プロフィールに戻る</a>
         </footer>
-    </div>
+    </main>
 </body>
 
 </html>
